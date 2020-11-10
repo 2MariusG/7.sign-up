@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> sign up</title>
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/maincustom.css">
 </head>
 <body>
-    <main>
-        <div>
-            <h1> sign up</h1>
-            <footer>
-                <a href="#">privacy plicy</a>
-                <span>&amp;</span>
+    <main class="conteiner">
+        <div class="left-column">
+            <h1 class="page-title"> sign up</h1>
+            <footer class="bottom-links" >
+                <a class="bottom-links" href="#">privacy plicy</a>
+                <span class="text">&amp;</span>
                 <a href="#">terms of service</a>
             </footer>
         </div>
         <div>
             <div>x</div>
             <form>
-                <div>
-                    <label for="username">User name</label>
-                    <input id="username" type="text" placeholde="Username" >
+                <div class="form-row" >
+                    <label class for="username">User name</label>
+                    <input id="username" type="text" placeholder="Username" >
                 </div>
                 <div>
                     <label for="email">E-mail</label>
-                    <input id="email" type="email" placeholde="Email">
+                    <input id="email" type="email" placeholder="Email">
                 </div>
                 <div>
                     <label for="">Password</label>
-                    <input id="pass" type="password" placeholde="password">
+                    <input id="pass" type="password" placeholder="password">
                 </div>
                 <div>
                     <label for="repass">Repeat password</label>
-                    <input id="repass" type="password" placeholde="password">
+                    <input id="repass" type="password" placeholder="password">
                 </div>
                 <div>
                     <div>Get started</div>
                     <span>or</span>
                     <a href="#">Sign in</a>
-                </div>
+                <div class="form-row">
+                    <div class="btn">Get started</div>
+                    <span class="text">or</span>
+                    <a class="link" href="#">Sign in</a>
+                </div>    
             </form>
         </div>
     </main>

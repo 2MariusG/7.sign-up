@@ -1,6 +1,9 @@
 
 body {
     background-color: #4BB3C9;
+    
+   
+          
 }
     .container {
         display: inline-block;
@@ -20,6 +23,9 @@ body {
             position: absolute;
             top: 30px;
             bottom: 30px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center bottom;
         }
             .page-title {
                 display: inline-block;
